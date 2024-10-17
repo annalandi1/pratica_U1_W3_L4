@@ -8,7 +8,7 @@ body {
   margin: 0;
   background-color:#13341b;
   font-family: 'Outfit', sans-serif;
-  color: #071605;
+  color: #ffffff;
   line-height: normal;
 }
 
@@ -30,26 +30,19 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  background-color: lightgray;
+  background-color: rgb(11, 59, 16);
   border: 1px solid black;
 }
 .selected {
   background-color: yellow;
 }
 
-/*
-header,
-main,
-main + section {
-  max-width: 768px;
-  margin-inline: auto;
 
-*/
 #tombola {
   display: grid;
-  grid-template-columns: repeat(10, 40px); /* 10 colonne, ogni cella larga 40px */
-  grid-gap: 5px; /* Spaziatura tra le celle */
-  justify-content: center; /* Centra la griglia orizzontalmente */
+  grid-template-columns: repeat(10, 40px);
+  grid-gap: 5px;
+  justify-content: center; 
   width: 100%;
   background-color: #0b1d12;
   color: #ebebeb;
@@ -60,9 +53,8 @@ main + section {
 
 
 form button {
-  cursor: pointer;
   background-color: #216532;
-  color: #4bec76;
+  color: #ffffff;
   border: none;
   width: 130px;
   min-height: 36px;
