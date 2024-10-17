@@ -29,11 +29,12 @@ h1 {
   height: 50px;
   text-align: center;
   margin: 5px;
-  background-color: rgb(11, 59, 16);
+  background-color: #0c4225;
   border: 1px solid black;
 }
 .selected {
-  background-color: yellow;
+  background-color: #ffffff;
+  color: #0c4225;
 }
 
 
@@ -51,7 +52,7 @@ h1 {
 }
 
 
-form button {
+div button {
   background-color: #216532;
   color: #ffffff;
   border: none;

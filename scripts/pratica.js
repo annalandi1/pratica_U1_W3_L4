@@ -41,7 +41,7 @@ createTombolaCells()
 const button = document.getElementById("random-button")
 button.addEventListener("click", selectRandomNumber)
 
-
+console.log(randomNumber)
 
 
 
