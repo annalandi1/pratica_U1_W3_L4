@@ -30,7 +30,7 @@ h1 {
   text-align: center;
   margin: 5px;
   background-color: #0c4225;
-  border: 1px solid black;
+  border: none;
 }
 .selected {
   background-color: #ffffff;
@@ -39,20 +39,20 @@ h1 {
 
 
 #tombola {
+  
   display: grid;
-  grid-template-columns: repeat(10, 40px);
-  grid-gap: 5px;
+  grid-template-columns: repeat(11, 50px);
+  grid-gap: 7px;
   justify-content: center; 
   width: 100%;
   background-color: #0b1d12;
   color: #ebebeb;
   border-radius: 8px;
-  border: 8px solid #0b1d0b;
+  border:none;
 
 }
 
-
-div button {
+#random-button {
   background-color: #216532;
   color: #ffffff;
   border: none;
@@ -61,3 +61,11 @@ div button {
   font-weight: 700;
 }
 
+#reset-button {
+  background-color: #216532;
+  color: #ffffff;
+  border: none;
+  width: 130px;
+  min-height: 36px;
+  font-weight: 700;
+}

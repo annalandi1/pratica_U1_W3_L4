@@ -44,7 +44,12 @@ button.addEventListener("click", selectRandomNumber)
 console.log(randomNumber)
 
 
+const resetTombola = function () {
+    while(selectedNumbers.length>0){
+        selectedNumbers.pop();
+       }
+}
 
-
-
+const button2 = document.getElementById("reset-button")
+button2.addEventListener("click", resetTombola )
 
